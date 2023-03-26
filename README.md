@@ -1,2 +1,2 @@
 #imhgrebuild
-This is my first portfolio project as I work toward pivoting to a new career from the behavioral health space to the tech space.
+This is my first portfolio project as I work toward pivoting to a new career from the behavioral health space to the tech space. I am rebuilding the website of the mental health group I cofounded to improve functionality, update components the original designer was unable to do, to include making it a responsive site.
