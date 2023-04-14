@@ -73,6 +73,12 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
   padding: 0;
 }
 
+.full-width {
+  width: 100%;
+  height: 100%;
+}
+
+
   .footerh5 {
     font-family: "walkwayboldregular";
       font-size: 22px;
