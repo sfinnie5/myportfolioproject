@@ -73,7 +73,6 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
   padding: 0;
 }
 
-
   .footerh5 {
     font-family: "walkwayboldregular";
       font-size: 22px;
@@ -95,6 +94,8 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
     font-weight: bold;
 }
 
+
+
 #adultcounseling {
     width: 100%;
     height: auto;
@@ -114,7 +115,7 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
     display: block;
     padding: 5px 0;
     font-family: "opensansregular";
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -123,7 +124,7 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
     padding: 5px 0;
     text-decoration: none;
     font-family: "opensansregular";
-    font-size: 18px;
+    font-size: 14px;
     color: #5e5e5d;
 }
 
@@ -136,8 +137,17 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
   padding: 5px 0;
   text-decoration: none;
   font-family: "opensansregular";
-  font-size: 18px;
+  font-size: 14px;
   color: #5e5e5d;
+}
+
+.block-link {
+  display: inline-block;
+}
+.block-link a {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .btn-instagram {
@@ -147,6 +157,27 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
 
 .footer {
   white-space: nowrap;
+}
+
+.copyright {
+  background-color: rgb(234,234,232,1);
+}
+
+.copyrightcontent {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.copyrightcontent p {
+  font-size: 12px;
+  line-height: 16.8px;
+  overflow-wrap: break-word;
+}
+
+.copyrightcontent .copyright1 {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 @media (max-width: 991.98px) {
