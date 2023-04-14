@@ -1,29 +1,34 @@
-.nav-item {
+@font-face {
+  font-family: "walkwayboldregular";
+  src: url("../fonts/walkwayboldregular.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "opensansregular";
+  src: url(../fonts/opensansregular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-item, li a, .dropbtn {
     display: flex;
+    color: #5e5e5d;
     justify-content: center;
     align-items: center;
-    color: #5e5e5d;
     font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-li a, .dropbtn {
-    display: flex;
-    color: #5e5e5d;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    font-family: 'walkwayboldregular';
-    white-space: nowrap;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-    color: #848b79;
-}
-
-li.dropdown {
+.nav-item, li.dropdown {
     display: inline-block;
+}
+
+li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
+    color: #848b79;
+    text-decoration: none;
 }
 
 .dropdown-content {
@@ -33,6 +38,10 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    font-family:"opensansregular";
+    font-size: 1px;
+    letter-spacing: 0.8px;
+    line-height: 13.3px;
 }
 
 .dropdown-content a {
@@ -51,56 +60,97 @@ li.dropdown {
     display: block;
 }
 
-
-.centered h1 {
-    color: white;
-    font-size: 65px;
-    line-height: 54.2px;
-    letter-spacing: 3.3px;
-    position: absolute;
-    text-align: center;
-    font-family: "walkwayboldregular";
-    letter-spacing: 0.05em;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow:rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
-  }
-
-  .bg-image {
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-  }
-
-  @font-face {
-    font-family: "walkwayboldregular";
-    src: url("../fonts/walkwayboldregular.ttf") format("truetype");
-    font-weight: bolder;
-    font-style: normal;
-  }
-
-  .nav-link {
+.nav-link, footer h5 a, footer h5, .footer ul li, li a p {
     font-family: "walkwayboldregular";
     font-size: 19px;
     letter-spacing: 1.8px;
     line-height: 18px;
-    color: #5e5e5d;
-  }
+    text-decoration: none;
+}
 
-  .dropdown-content {
-    font-family:"opensansregular";
-    font-size: 1px;
-    letter-spacing: 0.8px;
-    line-height: 13.3px;
-  }
+.img-container {
+  max-width: 100%;
+  padding: 0;
+}
 
-  @font-face {
+
+  .footerh5 {
+    font-family: "walkwayboldregular";
+      font-size: 22px;
+      letter-spacing: 1.8px;
+      line-height: 18px;
+      font-style: italic;
+      color: #848b79;
+      text-decoration: none;
+      font-weight: bold;
+}
+.footerh5 a {
+  font-family: "walkwayboldregular";
+    font-size: 22px;
+    letter-spacing: 1.8px;
+    line-height: 18px;
+    font-style: italic;
+    color: #848b79;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#adultcounseling {
+    width: 100%;
+    height: auto;
+}
+
+#adultcounselingheader {
+    font-family: "walkwayboldregular";
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.footer ul li, li a p, .footer {
+    display: block;
+    padding: 5px 0;
     font-family: "opensansregular";
-    src: url("../fonts/opensansregular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer li a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    font-family: "opensansregular";
+    font-size: 18px;
+    color: #5e5e5d;
+}
+
+.footer ul.text-left {
+    text-align: left;
+}
+
+.demoinfo {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  font-family: "opensansregular";
+  font-size: 18px;
+  color: #5e5e5d;
+}
+
+.btn-instagram {
+  border-left-width: 0px;
+  padding-left: 0rem;
+}
+
+.footer {
+  white-space: nowrap;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse .nav-link {
+    justify-content: flex-start !important;
   }
+}
