@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .nav-item, li a, .dropbtn {
     display: flex;
     color: #5e5e5d;
@@ -189,5 +193,35 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
 @media (max-width: 991.98px) {
   .navbar-collapse .nav-link {
     justify-content: flex-start !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 123.406px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    padding-top: 200px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body {
+    padding-top: 200px;
   }
 }
