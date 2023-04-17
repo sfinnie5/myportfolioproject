@@ -16,6 +16,10 @@
   background-color: white;
 }
 
+.navbar-brand img {
+  max-width: 100%;
+}
+
 .navbar-nav {
   display: flex;
   align-items: center;
@@ -94,8 +98,42 @@ li a:hover, .dropdown:hover .dropbtn, .footer li a:hover {
   height: 100%;
 }
 
+div.container-fluid.firstcontent {
+  padding: 20px;
+}
+
+.mission p {
+  font-size: 20px;
+  font-family: 'opensansregular';
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-align: start;
+  line-height: 40px;
+}
+
+.quote {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.quote img {
+border-radius: 50%;
+}
+
+.quote p {
+  font-size: 16px;
+  font-family: 'opensansregular';
+  margin-top: 20px;
+  background-color: transparent;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .jumbotron-fluid {
   background-color: #ADB2A6;
+  padding: 20px;
 }
 
 .jumbotron-fluid h1 {
@@ -309,9 +347,5 @@ footer .row {
     font-size: .75rem;
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-
-  .jumbotron-fluid .btn {
-
   }
 }
